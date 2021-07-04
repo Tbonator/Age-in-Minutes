@@ -1,6 +1,7 @@
 package com.example.ageinminutes
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -22,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         binding.btnDatePicker.setOnClickListener {
                 view -> clickDatePicker(view)
             //Toast.makeText(this,"Button Works",Toast.LENGTH_LONG).show()
+        }
+
+        binding.secondActivityBtn.setOnClickListener {
+            val intent = Intent(this,secondActivity::class.java)
+            startActivity(intent)
         }
 
 

@@ -6,5 +6,5 @@
     <string name="SelectDate">Select Date</string>
     <string name="selectedDate">selected Date</string>
     <string name="inMinutes_TillDate">In minutes till date</string>
-
+    <string name="secondActivity">Next Activity</string>
 </resources>
